@@ -97,15 +97,17 @@ body
 {
     width: 65%;
     min-width: 250px;
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
     font-weight: 700;
     margin-bottom: 3rem;
+    color: var(--secondary-color);
 
 }
 .container .homeContent .contentHead p 
 {
-    font-size: clamp(1.2rem, 3vw, 2rem);
+    font-size: clamp(1.5rem, 3vw, 1.6rem);
     font-weight: 400;
+    color: var(--secondary-color);
 }
 .container .homeContent button 
 {
@@ -169,7 +171,7 @@ body
 }
 .gridContainer p
 {
-    font-size: clamp(1.3rem, 3vw, 2rem);
+    font-size: clamp(1.3rem, 2vw, 1.5rem);
     font-weight: 400;
     margin-top: 10px;
     color: var(--paragraph-text-color2);
@@ -360,7 +362,7 @@ body
     {
         display: grid;
         grid-template-columns: 1fr;
-        margin: 0;
+        margin: 10px 0;
         padding: 0;
     }
     .gridContainer .flexcard .articleImage
