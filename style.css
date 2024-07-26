@@ -311,7 +311,8 @@ body
 }
 #footerContainer .copyright 
 {
-    width: calc(90%);
+    
+    width: 90%;
     color: var(--secondary-color);
     font-size: 1.2rem;
     text-align: right;
@@ -395,6 +396,8 @@ body
     {
         flex-direction: column;
         gap: 2rem;
+        position: relative;
+        margin-bottom: 3rem;
     }
     #footerContainer .footer .firstFooter
     {
@@ -403,5 +406,18 @@ body
     #footerContainer .footer .secondFooter, .thirdFooter
     {
         margin: 0;
+    }
+    #footerContainer .footer .fourthFooter
+    {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #footerContainer .copyright
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
     }
 }
