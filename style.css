@@ -362,8 +362,11 @@ body
     {
         display: grid;
         grid-template-columns: 1fr;
-        margin: 10px 0;
-        padding: 0;
+        margin: 20px 0;
+        padding: 40px 0;
+        background-color: var(--secondary-color);
+        box-shadow: 0 0 25px var(--paragraph-text-color2);
+        border-radius: 1rem;
     }
     .gridContainer .flexcard .articleImage
     {
